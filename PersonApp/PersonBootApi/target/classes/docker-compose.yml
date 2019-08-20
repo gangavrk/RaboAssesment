@@ -1,0 +1,13 @@
+database:
+  image: mysql
+ #volumes:
+ #    - //c/Users/gangavrk/Documents/dumps/Dump20190819:/docker-entrypoint-initdb.d/dump.sql
+  restart: always
+  environment:
+    MYSQL_ROOT_PASSWORD: Amste4dam
+    MYSQL_DATABASE: person
+    MYSQL_USER: user
+    MYSQL_PASSWORD: Amste4dam
+  ports:
+    - "33061:3306"
+  

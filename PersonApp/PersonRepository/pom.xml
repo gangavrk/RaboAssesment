@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.rabo.app</groupId>
+    <artifactId>PersonApp</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <groupId>com.rabo.repository</groupId>
+  <artifactId>PersonRepository</artifactId>
+  <name>PersonRepository</name>
+  <url>http://maven.apache.org</url>
+  <properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+  <dependencies>
+    <dependency>
+    	<groupId>com.rabo.model</groupId>
+    	<artifactId>PersonModel</artifactId>
+    	<version>0.0.1-SNAPSHOT</version>
+    </dependency>
+     <dependency>
+    	<groupId>mysql</groupId>
+    	<artifactId>mysql-connector-java</artifactId>
+    	<version>8.0.17</version>
+    </dependency>
+     <dependency>
+     	<groupId>org.junit.jupiter</groupId>
+     	<artifactId>junit-jupiter-api</artifactId>
+     	<version>5.5.1</version>
+     </dependency>
+  </dependencies>
+</project>

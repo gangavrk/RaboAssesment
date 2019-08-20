@@ -1,0 +1,3 @@
+com\rabo\bootapp\RaboBootApp.class
+com\rabo\secure\SecurityConfiguration.class
+com\rabo\controller\PersonController.class
